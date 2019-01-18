@@ -27,7 +27,6 @@ const TobBarContainer = styled.div`
 
   
   @media (min-width: 1280px) {
-    .top-bar .container {
       width: 1280px;
     }
 `;
