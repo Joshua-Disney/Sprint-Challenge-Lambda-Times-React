@@ -30,19 +30,20 @@ const HeaderHeading = styled.h1`
   color: #000;
 `;
 
-const HeaderSpan = styled.span`
+const Date = styled.span`
   align-self: flex-end;
   font-size: 11px;
   font-weight: bold;
   letter-spacing: 1px;
-`;
-
-const Date = styled.HeaderSpan`
   margin-left: 25px;
   flex: 1;
 `;
 
-const Temp = styled.HeaderHeading`
+const Temp = styled.span`
+  align-self: flex-end;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 1px;
   text-align: right;
   margin-right: 25px;
   flex: 1;
@@ -51,7 +52,7 @@ const Temp = styled.HeaderHeading`
 const Header = () => {
   return (
     <MainHeader>
-      <Date>SMARCH 32, 2018</Date>
+      <Date>MARCH 32, 2018</Date>
       <HeaderHeading>Lambda Times</HeaderHeading>
       <Temp>98°</Temp>
     </MainHeader>

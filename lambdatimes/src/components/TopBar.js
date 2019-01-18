@@ -64,8 +64,14 @@ const CenterSpan = styled.span`
   }
 `;
 
-const LastCenterSpan = styled.CenterSpan`
+const LastCenterSpan = styled.span`
   margin-right: 0;
+  cursor: pointer;
+  margin-right: 5%;
+
+  &:hover {
+    text-decoration: underline;
+  }
 `;
 
 const ContainerRight = styled.div`
